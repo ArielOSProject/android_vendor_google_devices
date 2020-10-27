@@ -1,6 +1,6 @@
 # [2020-08-05] Auto-generated file, do not edit
 
-VENDOR_DEVICE := $(TARGET_PRODUCT:lineage_%=%)
+VENDOR_DEVICE := $(TARGET_PRODUCT:ariel_%=%)
 $(call inherit-product, vendor/google_devices/$(VENDOR_DEVICE)/$(VENDOR_DEVICE)-vendor-blobs.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
